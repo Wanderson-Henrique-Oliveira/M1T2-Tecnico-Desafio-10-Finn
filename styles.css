@@ -202,3 +202,140 @@ button:hover{
     left: 4.5rem;
 }
 
+@media(max-width: 500px){
+    h1{
+        font-size: 30px;
+        line-height: 50px;
+    }
+    
+    p{
+        font-size: 16px;
+        line-height: 30px;
+    }
+    
+    .head{
+        width: 16rem;
+        height: 12rem;
+        bottom: 5rem;
+    }
+    
+    .earLeft{
+        width: 3.3rem;
+        height: 10rem;
+        border-radius: 1.6rem;
+        bottom: 2rem;
+        left: 0rem;
+    }
+    
+    .earRight{
+        width: 3.3rem;
+        height: 10rem;
+        border-radius: 1.6rem;
+        bottom: 12rem;
+        left: 12.7rem;
+    }
+    
+    .face{
+        width: 13.3rem;
+        height: 10rem;
+        border-radius: 50%;
+        left: 1.3rem;
+        top: 1.3rem;
+    }
+    
+    .leftEye{
+        width: 1rem;
+        height: 1rem;
+        border-radius: 50%;
+        top: 3.3rem;
+        left: 2rem;
+    }
+    
+    .rightEye{
+        width: 1rem;
+        height: 1rem;
+        border-radius: 50%;
+        top: 3.3rem;
+        left: 10rem;
+    }
+    
+    .light1{
+        width: .3rem;
+        height: .3rem;
+        border-radius: 50%;
+        top: .25rem;
+        left: .25rem;
+    }
+    
+    .light2{
+        width: .3rem;
+        height: .3rem;
+        border-radius: 50%;
+        top: .25rem;
+        left: .25rem;
+    }
+    
+    .mouth{
+        width: 7rem;
+        height: 2rem;
+        border-radius: 1.5rem;
+        top: 4.6rem;
+        left: 3rem;
+    }
+    
+    .teethUp{
+        width: 6.8rem;
+        height: .9rem;
+        border-radius: 1rem 1rem 0 0;
+        top: .13rem;
+        left: .08rem;
+    }
+    
+    .teethDown{
+        width: 6.8rem;
+        height: .9rem;
+        border: none;
+        border-radius: 0 0 1rem 1rem;
+        bottom: .13rem;
+        left: .08rem;
+    }
+    
+    .body{
+        width: 16rem;
+        height: 5rem;
+        bottom: 0;
+        left: 50%;
+    }
+    
+    button{
+        width: 4.5rem;
+        height: 1.6rem;
+        font-weight: bold;
+        font-size: 14px;
+        border-radius: .5rem;
+        left: 0rem;
+    }
+    
+    .bag{
+     width: 22rem;
+     height: 10rem;
+     bottom: 0;
+     left: 50%;
+     border-radius: 6.6rem 6.6rem 0 0;
+    }
+    
+    .detail{
+        width: 22rem;
+        height: 4rem;
+        top: 6rem;
+    }
+
+    .mouth:hover{
+        width: 7rem;
+        height: 3.3rem;
+        border-radius: 1rem;
+        top: 4.6rem;
+        left: 3rem;
+    }
+}
+
